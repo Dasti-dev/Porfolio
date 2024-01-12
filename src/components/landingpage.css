@@ -1,0 +1,117 @@
+.landing{
+    width: 100%;
+    height: calc(100vh - 55px);
+    background-color: black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    z-index: 0;
+}
+.maintxt{
+    width: 900px;
+    height: 270px;
+    padding: 2em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+.txt{
+    width: 100%;
+    text-align: center;
+    font-size: 72px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+}
+.u{
+    width: 70%;
+}
+.l{
+    width: 70%;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    box-sizing: border-box;
+    background-color: #ffe100;
+    color: black;   
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.b{
+    width: fit-content;
+    height: fit-content;
+    color: black;   
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.lt{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left: 2px solid #c9c9c9;
+    border-top: 2px solid #c9c9c9;
+    z-index: 10;
+}
+.rt {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-right: 2px solid #c9c9c9;
+    border-top: 2px solid #c9c9c9;
+    z-index: 10;
+}
+.lb{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-left: 2px solid #c9c9c9;
+    border-bottom: 2px solid #c9c9c9;
+    z-index: 10;
+}
+.rb{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-right: 2px solid #c9c9c9;
+    border-bottom: 2px solid #c9c9c9;
+    z-index: 10;
+}
+.timer{
+    position: absolute;
+    width: fit-content;
+    font-size: 8em;
+    font-family: "Marvel",sans-serif;
+    font-weight: 500;
+    letter-spacing: 10px;
+    bottom: -0.70em;
+    color: rgba(251,202,25,.65);
+    /* opacity: 0.5; */
+    animation: flicker 1s infinite;
+    z-index: 10;
+}
+@keyframes flicker {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
