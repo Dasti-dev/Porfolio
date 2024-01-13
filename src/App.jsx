@@ -1,6 +1,7 @@
 import Navbar from './components/navbar'
 import Landingpage from './components/landingpage'
 import Section from './components/section'
+import Footer from './components/footer'
 import './App.css'
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Navbar></Navbar>
       <Landingpage></Landingpage>
       <Section></Section>
+      <Footer></Footer>
     </div>
   )
 }

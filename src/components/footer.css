@@ -1,0 +1,107 @@
+.footer{
+    width: 100%;
+    height: 100vh;
+    background-color: #2c2c2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white !important;
+}
+.foarea{
+    width: 75%;
+    height: 80%;
+    /* background-color: #ffe100; */
+    /* background-color: #2c2c2c; */
+    /* background-color: rgb(255, 225, 0, 01); */
+    /* box-shadow: #323131; */
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5em;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+.ls{
+    width: 50%;
+    height: 100%;
+    /* border-right: 1px solid #2c2c2c; */
+    border-right: 1px solid #ffffff;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-family: "Montserrat",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+}
+.rs{
+    width: 50%;
+    height: 100%;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-family: "Montserrat",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    text-align: right;
+}
+.bologo{
+    box-sizing: border-box;
+    padding: 1em;
+    /* padding-bottom: 0; */
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 55px;
+    font-family: "Montserrat",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bolder;
+    color: aliceblue;
+    /* text-shadow: 2px 2px 2px rgba(0, 0, 0,1); */
+}
+b{
+    color: #ffe100;
+    /* color: white; */
+}
+.col{
+    background-color: #000000;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    color: #fbc919;
+    color: #fbc919;
+    border-radius: 4px;
+    /* font-weight: bolder; */
+}
+.search-container{
+    padding-top: 0.5em;
+}
+.search-input {
+    box-sizing: border-box;
+    padding: 0.7em;
+    border: 3px solid #000000;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-size: 16px;
+    width: 70%;
+    
+}
+.search-button {
+    padding: 0.7em;
+    border: 3px solid #000000;
+    /* border-radius: 4px */
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+}
