@@ -43,7 +43,7 @@ function Footer() {
     setSuccess(false);
 
     try {
-      const response = await apicall('http://localhost:5000/send', { from : sender , text : body });
+      const response = await apicall('https://portfolio-backend-mailing-service.onrender.com/send', { from : sender , text : body });
 
       setLoading(false);
       setSuccess(true);
