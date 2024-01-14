@@ -6,7 +6,7 @@ const navoptns = [
         name : "About",
         link : "www.google.com",
     },
-    {
+    {   
         name : "Projects",
         link : "www.google.com",
     },
@@ -47,7 +47,7 @@ function Navbar() {
         <b>Astitwa</b>Dwivedi<b>.</b>
       </div>
       <div className="optns">
-        {navoptns.map((item)=><li className="navlist">{item.name}</li>)}
+        {navoptns.map((item)=><li  className="navlist">{item.name}</li>)}
       </div>
     </div>
   )
