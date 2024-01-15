@@ -190,4 +190,26 @@
         animation: flicker 1s infinite;
         z-index: 10;
     }
+    .l{
+        width: 100%;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        box-sizing: border-box;
+        background-color: #ffe100;
+        color: black;   
+        letter-spacing: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+    }
+    .b{
+        width: fit-content;
+        height: fit-content;
+        color: black;   
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
 }

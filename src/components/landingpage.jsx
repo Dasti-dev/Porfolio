@@ -19,7 +19,7 @@ function Landingpage() {
         <div className="lt"></div>
         <div className="rt"></div>
         <h2 className='txt u'>Welcome To My</h2>
-        <h2 className='txt l'><b className='b'>PORTFOLIO</b></h2>
+        <h2 className='txt l'><b className='b'> PORTFOLIO</b></h2>
         <div className="lb"></div>
         <div className="rb"></div>
       </div>
