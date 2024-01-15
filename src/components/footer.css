@@ -107,3 +107,157 @@ b{
     display: block;
     margin-top: 2em;
 }
+
+.single{
+    width: 100% !important;
+    border: none !important;
+}
+
+@media (max-width : 1380px) {
+    .foarea{
+        width: 90%;
+        height: 80%;
+        /* background-color: #ffe100; */
+        /* background-color: #2c2c2c; */
+        /* background-color: rgb(255, 225, 0, 01); */
+        /* box-shadow: #323131; */
+        /* border: 2px solid white; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4.5em;
+        box-sizing: border-box;
+        border-radius: 10px;  
+    }
+    .ls{
+        width: 50%;
+        height: 100%;
+        /* border-right: 1px solid #2c2c2c; */
+        border-right: 1px solid #ffffff;
+        font-size: 3rem;
+        font-weight: 900;
+        line-height: 1.2;
+        letter-spacing: 1px;
+        font-family: "Montserrat",sans-serif;
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+        padding-left: 0.5em;
+        padding-top: 0.5em;
+    }
+    .rs{
+        width: 50%;
+        height: 100%;
+        font-size: 3rem;
+        font-weight: 900;
+        line-height: 1.2;
+        letter-spacing: 1px;
+        font-family: "Montserrat",sans-serif;
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+        padding-right: 0.5em;
+        padding-top: 0.5em;
+        text-align: right;
+    }
+}
+
+@media (max-width : 950 ) {
+    .foarea{
+        width: 90%;
+        height: 80%;
+        /* background-color: #ffe100; */
+        /* background-color: #2c2c2c; */
+        /* background-color: rgb(255, 225, 0, 01); */
+        /* box-shadow: #323131; */
+        /* border: 2px solid white; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4.5em;
+        box-sizing: border-box;
+        border-radius: 10px;  
+    }
+    .ls{
+        width: 50%;
+        height: 100%;
+        /* border-right: 1px solid #2c2c2c; */
+        border-right: 1px solid #ffffff;
+        font-size: 1rem;
+        font-weight: 900;
+        line-height: 1.2;
+        letter-spacing: 1px;
+        font-family: "Montserrat",sans-serif;
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+        padding-left: 0.5em;
+        padding-top: 0.5em;
+    }
+    .rs{
+        width: 50%;
+        height: 100%;
+        font-size: 1.6rem;
+        font-weight: 900;
+        line-height: 1.2;
+        letter-spacing: 1px;
+        font-family: "Montserrat",sans-serif;
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+        padding-right: 0.5em;
+        padding-top: 0.5em;
+        text-align: right;
+    }
+    .single{
+        width: 100% !important;
+        border: none !important;
+    }
+}
+
+@media (max-width : 500px ) {
+    .foarea{
+        width: 90%;
+        height: 80%;
+        /* background-color: #ffe100; */
+        /* background-color: #2c2c2c; */
+        /* background-color: rgb(255, 225, 0, 01); */
+        /* box-shadow: #323131; */
+        /* border: 2px solid white; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4.5em;
+        box-sizing: border-box;
+        border-radius: 10px;  
+    }
+    .ls{
+        width: 50%;
+        height: 100%;
+        /* border-right: 1px solid #2c2c2c; */
+        border-right: 1px solid #ffffff;
+        font-size: 2.2rem;
+        font-weight: 900;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        font-family: "Montserrat",sans-serif;
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+        padding-left: 0.5em;
+        padding-top: 0.5em;
+    }
+    .rs{
+        width: 50%;
+        height: 100%;
+        font-size: 1.5rem;
+        font-weight: 900;
+        line-height: 1.2;
+        letter-spacing: 1px;
+        font-family: "Montserrat",sans-serif;
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+        padding-right: 0.5em;
+        padding-top: 0.5em;
+        text-align: right;
+    }
+    .single{
+        width: 100% !important;
+        border: none !important;
+    }
+}

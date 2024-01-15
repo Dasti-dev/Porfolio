@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import apicall from '../Hooks/hooks';
 // import {linkdin} from '../assets/linkedin.png'
 // import {telegram} from '../assets/telegram.png'
@@ -26,6 +26,9 @@ function Footer() {
   const [success, setSuccess] = useState(false);
   const [body, setBody] = useState('');
   const [sender, setSender] = useState('');
+  const [size, setSize] = useState(true);
+
+
 
   const handleBodyData = (e) => {
     e.preventDefault()
@@ -48,10 +51,8 @@ function Footer() {
       setLoading(false);
       setSuccess(true);
       console.log(response.data);
-      if(success === true)
-      {
-        alert("Feedback Recieved");
-      }
+      
+      alert("Feedback Recieved , Thank You");
     } catch (error) {
       setLoading(false);
       setError(true);
@@ -60,13 +61,20 @@ function Footer() {
 
   };
 
+  useEffect(()=>{
+    if(window.innerWidth < 900)
+    {
+      setSize(false);
+    }
+  },[])
+
   return (
     <div className='footer'>
       <div className="foarea">
-        <div className="ls">
+        <div className={`ls ${window.innerWidth < 900 ? 'single' : ''}`}>
            <b className="col">Thank You</b> , <br/> for the visit <br/> <b className="col">What can</b> I do<br/> Better ...
             <div class="search-container">
-            {loading && <p>Loading...</p>}
+            {loading && <p>Sending...</p>}
                 {!loading && (<div>
                   <input type="text" className="search-input" placeholder="Enter Your Name" onChange={handleSenderData}/>
                   <input type="text" className="search-input" placeholder="Feedback" onChange={handleBodyData}/>
@@ -75,12 +83,12 @@ function Footer() {
             </div>
           
         </div>
-        <div className="rs">
+        {size && <div className="rs">
             Lets <b className="col">Connect</b> <br/> on Socials
             <div className="icons">
                 {/* {socials.map((item)=><a href=''><img src={item.name} alt="Not loaded yet" /></a>)} */}
             </div>
-        </div>
+        </div>}
       </div>
       <div className="bologo">
         <b>Astitwa</b>Dwivedi<b>.</b>

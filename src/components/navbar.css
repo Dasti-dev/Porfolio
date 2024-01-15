@@ -58,3 +58,41 @@ b{
 .varCol{
     color: black !important;
 }
+@media (max-width : 900px) {
+    .optns{
+        /* height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding-left: 1em;
+        padding-right: 1em; */
+        display: none;
+    }
+    .navlist{
+        /* list-style-type: none;
+        width: auto;
+        font-size: 16px;
+        width: 100px;
+        text-align: right;
+        font-family: "Montserrat",sans-serif;
+        -webkit-font-smoothing: antialiased;
+        color: #c9c9c9;
+        cursor: pointer; */
+        display: none;
+    }
+}
+
+@media (max-width : 500px) {
+    .logo{
+        width: fit-content;
+        height: 100%;
+        font-size: 15px;
+        line-height: 55px;
+        font-family: "Montserrat",sans-serif;
+        -webkit-font-smoothing: antialiased;
+        font-weight: bolder;
+        color: aliceblue;
+        /* text-shadow: 2px 2px 2px rgba(0, 0, 0,1); */
+    }
+}

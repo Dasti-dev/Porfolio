@@ -15,8 +15,17 @@ const navoptns = [
 function Navbar() {
   const [scrolling, setScrolling] = useState(false);
   const [logo, setLogo] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
 
   useEffect(() => {
+    // const handleResize = () => {
+    //   setIsSmallScreen(window.innerWidth <= 768);
+    // };
+
     const handleScroll = () => {
       if (window.scrollY > 100) {
         setScrolling(true);
@@ -46,6 +55,7 @@ function Navbar() {
       <div className={`logo ${logo ? 'varCol' : ''}`}>
         <b>Astitwa</b>Dwivedi<b>.</b>
       </div>
+      
       <div className="optns">
         {navoptns.map((item)=><li  className="navlist">{item.name}</li>)}
       </div>
