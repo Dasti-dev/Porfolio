@@ -11,7 +11,7 @@ function Section() {
                 <div className="ft"> Hi <u className="cof">.</u></div>
                 <div className="bod">
                     <div className="maint">
-                        I AM Astitwa <br/> An Student And <br/> <u className='coff'>Developer :) </u>
+                        I AM Astitwa <br/> An Student And <br/> <u className='coff'>A Developer :) </u>
                         <div className="btn">
                             <button className='obtn'>Connect With Me</button>
                         </div>
