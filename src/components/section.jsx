@@ -5,15 +5,15 @@ import './section.css'
 function Section() {
   return (
     <div className='sec'>
-        <div className="quote">" CHANGE STARTS FROM TODAY "</div>
+        <div className="quote">" WOW !!! DIFFERENT ERROR "</div>
         <div className="cofe">
             <div className="inner-cofe">
                 <div className="ft"> Hi <u className="cof">.</u></div>
                 <div className="bod">
                     <div className="maint">
-                        WANT TO BUY <br/> ME A CUP OF <br/> <u className='coff'> COFFEE :) </u>
+                        I AM Astitwa <br/> An Student And <br/> <u className='coff'>Developer :) </u>
                         <div className="btn">
-                            <button className='obtn'>Click Here</button>
+                            <button className='obtn'>Connect With Me</button>
                         </div>
                     </div>
                     <div className="imgp">

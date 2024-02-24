@@ -3,35 +3,25 @@ import Landingpage from './components/landingpage'
 import Section from './components/section'
 import Footer from './components/footer'
 import './App.css'
+import VerticalTimelineComponent from './components/VerticalTimeline';
+import eventsData from './data.json';
+// import Timeline from './components/Timeline'
 
 function App() {
 
   return (
     <div className="App">
-      {/* <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <Navbar />
+      <div id="landing"> {/* Add IDs corresponding to the sections */}
+        <Landingpage />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div id="about">
+        <Section />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p> */}
-      <Navbar></Navbar>
-      <Landingpage></Landingpage>
-      <Section></Section>
-      <Footer></Footer>
+      <div id="timeline">
+        <VerticalTimelineComponent events={eventsData} />
+      </div>
+      <Footer />
     </div>
   )
 }

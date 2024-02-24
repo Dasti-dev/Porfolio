@@ -1,0 +1,75 @@
+[
+    {
+      "date": "2022-01-01",
+      "title": "A 2048 GAME",
+      "description": "A 2048 Game made using C++",
+      "link": "https://github.com/Dasti-dev/2048"
+    },
+    {
+      "date": "",
+      "title": "A Todo App",
+      "description": "A Todo App api set to using Node js",
+      "link": "https://github.com/Dasti-dev/Todo_App_backend"
+    },
+    {
+      "date": "2022-01-01",
+      "title": "A Social Media App",
+      "description": "A Social Media App frontend using React Js",
+      "link": "https://github.com/Dasti-dev/SocialMediaFrontend"
+    },
+    {
+      "date": "2022-01-01",
+      "title": "A Netflix Frontend clone",
+      "description": "A Netflix clone using React and Firebase",
+      "link": "https://github.com/Dasti-dev/Netflix-frontend-clone"
+    },
+    {
+      "date": "2022-01-01",
+      "title": "A Chatting App",
+      "description": "A Chatting App using Socketio and Nodejs",
+      "link": "null"
+    },
+    {
+      "date": "2022-01-01",
+      "title": "A Copyright Infrigement Detection",
+      "description": "SIH 22 Winner - Copyright content detection using Blockchain and Web Scrapping",
+      "link": "https://github.com/Dasti-dev/SmartIndian-22"
+    },
+    {
+      "date": "2022-01-01",
+      "title": "Health Veda",
+      "description": "EthIndia 22 - Made a decentralised one stop shop for health treatment using App and detection of Breast Cancer using Image using custom build Machine Learning Model",
+      "link": "https://devfolio.co/projects/vaidya-9160"
+    },
+    {
+      "date": "2022-01-01",
+      "title": "NFT Plateu",
+      "description": "CoinDCX - Unfold - An NFT auction and generation platform",
+      "link": "https://devfolio.co/projects/nft-plateau-cricket-nft-marketplace-on-avalanche-997d"
+    },
+    {
+      "date": "2022-01-01",
+      "title": "QMail",
+      "description": "SIH 23 Winner - A quantum secure mailing server",
+      "link": "https://github.com/Enigma-Stack"
+    },
+    {
+      "date": "2022-01-01",
+      "title": "Arbitrage Trading",
+      "description": "Arbitrage Trading bot on Coindcx",
+      "link": "https://github.com/Dasti-dev/Arbitrage_trading_bot"
+    },
+    {
+      "date": "2022-01-01",
+      "title": "VisionPlay",
+      "description": "A balace exchange and video uploader and player",
+      "link": "https://github.com/Dasti-dev/Pay_per_use_video_library"
+    },
+    {
+      "date": "2022-01-01",
+      "title": "CodePulse",
+      "description": "A vercel like wrapper for deploying react and fronend apps",
+      "link": "https://github.com/Dasti-dev/CodePulse"
+    }
+  ]
+  

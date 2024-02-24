@@ -1,0 +1,21 @@
+/* styles.css */
+.wrap {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vertical-timeline-element-date {
+    font-weight: bold;
+  }
+  
+  .vertical-timeline-element-title {
+    margin-bottom: 0.5rem;
+  }
+  
+  .vertical-timeline-element-description {
+    margin-bottom: 1rem;
+  }
+  

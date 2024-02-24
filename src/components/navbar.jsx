@@ -4,11 +4,11 @@ import './navbar.css'
 const navoptns = [
     {
         name : "About",
-        link : "www.google.com",
+        link : "#about",
     },
     {   
         name : "Projects",
-        link : "www.google.com",
+        link : "#timeline",
     },
 ]
 
@@ -49,6 +49,17 @@ function Navbar() {
     };
   }, []);
 
+  const handleNavOptionClick = (link) => {
+    if (link.startsWith("#")) {
+      const targetElement = document.querySelector(link);
+      if (targetElement) {
+        window.scrollTo({
+          top: targetElement.offsetTop,
+          behavior: "smooth"
+        });
+      }
+    }
+  };
   
   return (
     <div className={`nav ${scrolling ? 'scrolling' : ''}`}>
@@ -57,7 +68,7 @@ function Navbar() {
       </div>
       
       <div className="optns">
-        {navoptns.map((item)=><li  className="navlist">{item.name}</li>)}
+        {navoptns.map((item)=><li  className="navlist" onClick={() => handleNavOptionClick(item.link)}>{item.name}</li>)}
       </div>
     </div>
   )
